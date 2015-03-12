@@ -1,0 +1,30 @@
+header{
+  text-align:center;
+  font-style:italics;
+}
+h2{
+  font-style:italic;
+}
+body{
+  background-color:aquamarine;
+}
+nav ul li{
+  display:inline-block;
+  padding-left:550px;
+}
+p{
+  border-style:solid;
+}
+h1{
+  text-align:center;
+}
+#lel{
+  text-align:center;
+  list-style-type:none;
+}
+h2{
+  border-style:dotted;
+}
+img{
+  width:200px;
+}
