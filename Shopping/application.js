@@ -1,1 +1,1 @@
-
+$('button').on('click',function())
