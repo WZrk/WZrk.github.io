@@ -4,10 +4,11 @@ $(document).ready(function(){
   
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
-    var guess=
+    var guess=parseint($('input').val())
     //save their guess as a variable
     
     
+    if
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
     
