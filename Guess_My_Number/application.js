@@ -8,12 +8,22 @@ $(document).ready(function(){
     //save their guess as a variable
     
     
-    if
+    if guess===number
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    
+    {
+      console.log(You are correct.)
+    }
       //what happens if the guess is correct?
-      
+    else
+      if guess>number
+      {
+        console.log(You are too high.)
+      }
+      else
+      {
+        console.log(You are too low.)
+      }
     //if the user guessed too high...
     
       //update the 'feedback' paragraph to tell them to guess lower
