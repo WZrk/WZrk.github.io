@@ -5,6 +5,7 @@ $(document).ready(function(){
   $('button').on('click', function(){
     var userGuess = $('input').val();
     click_count = click_count+1 ;
+    $("#guess_counter").empty().append(click_count)
     $('#guess_counter')
     console.log(click_count)
     console.log(userGuess)
