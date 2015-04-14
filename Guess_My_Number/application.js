@@ -8,6 +8,7 @@ $(document).ready(function(){
     $('#guess_counter')
     console.log(click_count)
     console.log(userGuess)
+    $("#feedback").empty();
     if (userGuess == randomIndex){
       $("#feedback").append("Number's correct.")
     }
