@@ -9,13 +9,13 @@ $(document).ready(function(){
     console.log(click_count)
     console.log(userGuess)
     if (userGuess == randomIndex){
-      alert("You win")
+      $("#feedback").append("Number's correct.")
     }
    else if (userGuess > randomIndex){
-      alert("Guess Lower!")
+      $('#feedback').append("Number's too high...");
     }
     else if (userGuess < randomIndex){
-      alert("Guess Higher!")
+      $("#feedback").append("Number's too low...");
     }
     });
 });
