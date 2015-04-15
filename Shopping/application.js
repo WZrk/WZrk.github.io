@@ -5,7 +5,7 @@ $(document).ready(function(){
   })
   $('#clear').on('click', function(){
     var entry = $('input').val();
-    $("ul").remove(); //the items will be removed from the ul.
+    $("ul").empty(); //the items will be removed from the ul.
   })
 });
 
