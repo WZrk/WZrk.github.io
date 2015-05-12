@@ -2,12 +2,12 @@ from random import random
 total_wins = 0
 for i in range(10000):
   region wins = 0
-  region 1 = random()
-  if region 1 <= .87:
+  region_1 = random()
+  if region_1 <= .87:
     region wins = region wins + 1
   else:
     region wins = region wins
-  region 2 = random()
+  region_2 = random()
   if region 2 <= .65:
     region wins = region wins + 1
   else:
