@@ -8,12 +8,12 @@ for i in range(10000):
   else:
     region wins = region wins
   region_2 = random()
-  if region 2 <= .65:
+  if region_2 <= .65:
     region wins = region wins + 1
   else:
     region wins = region wins
-  region 3 = random()
-  if region 3 <= .17:
+  region_3 = random()
+  if region_3 <= .17:
     region wins = region wins + 1
   else:
     region wins = region wins
