@@ -23,14 +23,3 @@ def turn_left():
   time.sleep(.1)
   left()
   time.sleep(2)
-
-
-move_forward(4)
-turn_right()
-move_forward(3)
-turn_right()
-move_forward(2)
-turn_left()
-move_forward(1)
-turn_left()
-move_forward(3)
