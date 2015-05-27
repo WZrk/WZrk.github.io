@@ -1,4 +1,4 @@
-from gipigo import
+from gipigo import *
 import time
 import math
 
@@ -23,3 +23,7 @@ def turn_left():
   time.sleep(.1)
   left()
   time.sleep(2)
+  
+while us_dist(15) > 15:
+  fwd()
+  
