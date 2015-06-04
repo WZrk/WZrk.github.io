@@ -1,6 +1,7 @@
 from gipigo import *
 import time
 import math
+enable_servo()
 
 set_speed(100)
 
@@ -26,4 +27,9 @@ def turn_left():
   
 while us_dist(15) > 15:
   fwd()
+  servo(0)
+
+if us_dist(15) < 15:
+  stop()
+  servo(90)
   
